@@ -181,8 +181,11 @@ header
 }
 
 .row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+    margin:auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -608,8 +611,28 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    margin-right: 10%;
+    margin-left: 4%;
+}
+
+.fa-twitter
+{
+    color: white;
+}
+
+.fa-facebook
+{
+    color: white;
+}
+
+.fa-dribbble
+{
+    color: white;
+}
+
+.fa-instagram
+{
+    color: white;
 }
 
 h2 {
@@ -646,6 +669,7 @@ h4 {
 .white {
     color: #FFFFFF!important;
     font-size: 1em;
+    margin-top: 5%;
 }
 
 .portfolio-thumb {
@@ -676,7 +700,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ed5a15;
 }
 
 .tc-white {
