@@ -52,11 +52,12 @@ a:hover {
 
 .logo {
     padding: 20px 50px;
+    margin-left: -20%;
 }
 
 .logo img
 {
-    height: 40px;
+    height: 45px;
 }
 
 .section-title
@@ -73,11 +74,53 @@ a:hover {
     text-decoration: underline;
 }
 
-header
+.b-header
 {
-    height: 100px;
+    height: 85px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+#list
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#list li
+{
+    margin-right: 50px;
+    margin-top: 2%;
+    font-size: 1.2em;
+    color: grey;
+}
+
+.social {
+    margin-right: 10%;
+    margin-left: 4%;
+}
+
+.fa-twitter
+{
+    color: white;
+    margin-right: 3%;
+}
+
+.fa-facebook
+{
+    color: white;
+}
+
+.fa-dribbble
+{
+    color: white;
+}
+
+.fa-instagram
+{
+    color: white;
 }
 
 /* <-- Fin A garder --> */
@@ -202,6 +245,8 @@ header
     margin-bottom: 0;
     z-index: 1;
 }
+
+
 
 .navbar-brand {
     height: auto;
@@ -603,37 +648,14 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #faaf8c!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
 }
 
-.social {
-    margin-right: 10%;
-    margin-left: 4%;
-}
 
-.fa-twitter
-{
-    color: white;
-}
-
-.fa-facebook
-{
-    color: white;
-}
-
-.fa-dribbble
-{
-    color: white;
-}
-
-.fa-instagram
-{
-    color: white;
-}
 
 h2 {
     font-size: 22px;
@@ -704,11 +726,11 @@ h4 {
 }
 
 .tc-white {
-    color: #f5b99d!important;
+    color: #faaf8c!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ed5a15;
     color: #FFFFFF!important;
 }
 
@@ -729,7 +751,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #ed5a15!important;
 }
 
 .ltc-atomic-tangerine:hover {
