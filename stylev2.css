@@ -49,15 +49,16 @@ a:hover {
 }
 
 /* <-- A garder --> */
-header
+.list
 {
-    height: 100px;
+    margin-top: -0.5%;
 }
-
-.logo {
+.logo 
+{
     padding: 20px 50px;
-    margin-left: -20%;
-    margin-top: 10%;
+    margin-left: 0;
+    margin-top: 8%;
+    margin-bottom: 10%;
 }
 
 .logo img
@@ -87,10 +88,6 @@ header
     justify-content: space-between;
 }
 
-.list
-{
-    margin-top: 1%;
-}
 
 .social {
     margin-right: 10%;
@@ -1039,6 +1036,17 @@ h4 {
     header
     {
         margin-left: -1%;
+    }
+
+    .logo
+    {
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+
+    #nav-toggle
+    {
+        margin-top: 5%;
     }
 }
 
