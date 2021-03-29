@@ -49,10 +49,15 @@ a:hover {
 }
 
 /* <-- A garder --> */
+header
+{
+    height: 100px;
+}
 
 .logo {
     padding: 20px 50px;
     margin-left: -20%;
+    margin-top: 10%;
 }
 
 .logo img
@@ -82,25 +87,16 @@ a:hover {
     justify-content: space-between;
 }
 
-#list
+.list
 {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-}
-
-#list li
-{
-    margin-right: 50px;
-    margin-top: 2%;
-    font-size: 1.2em;
-    color: grey;
+    margin-top: 1%;
 }
 
 .social {
     margin-right: 10%;
     margin-left: 4%;
 }
+
 
 .fa-twitter
 {
@@ -123,29 +119,68 @@ a:hover {
     color: white;
 }
 
+#formulaire
+{
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    width: 100%;
+}
+
+#infos
+{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin:auto;
+    color: white;
+}
+form
+{
+    width: 40%;
+    margin-left: 10%;
+}
+
+form label
+{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+}
+
+form button
+{
+    background-color: #ed5a15;
+    color: white;
+}
+
+#citation
+{
+    width: 100%;
+}
 /* <-- Fin A garder --> */
 
 .bg-repeat {
     background: repeat;
 }
-
+/*texture background */
 .bloc-bg-texture::before {
     content: "";
-    background-size: 2px 2px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
-
+/*texture background */
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
 .b-parallax {
-    background-attachment: fixed;
+    background-attachment: static;
 }
 
 
@@ -225,7 +260,7 @@ a:hover {
 
 .row-no-gutters {
     margin:auto;
-    height: 100px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -462,7 +497,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: black;
     box-shadow: none;
 }
 
@@ -602,7 +637,6 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn,
 a {
     font-family: "helvetica";
@@ -648,7 +682,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #faaf8c!important;
+    color: white!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -726,7 +760,7 @@ h4 {
 }
 
 .tc-white {
-    color: #faaf8c!important;
+    color: #ffce50!important;
 }
 
 .btn-atomic-tangerine {
@@ -740,7 +774,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #ffce50!important;
     font-size: 1.3em;
     font-weight: bold;
     text-decoration: underline;
@@ -843,7 +877,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and  (min-width: 300px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -864,11 +898,10 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
     .navbar.row {
-        margin-left: 0;
+        margin-left: 10px;
         margin-right: 0;
     }
     .site-navigation {
@@ -924,7 +957,7 @@ h4 {
         width: 100%;
     }
     .nav-invert .navbar-toggle {
-        float: left;
+        float: right;
         margin-left: 10px;
     }
     .bloc {
@@ -980,14 +1013,35 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+    article img
+    {
+        margin: auto;
+    } 
+
+    .row-no-gutters 
+    {
+        display: flex;
+        justify-content: space-between;
+    } 
+
+    #infos
+    {
+        max-width: 40%;
+        word-wrap: break-word;
+    }
+
+    #citation
+    {
+        width: 90%;
+    }
+
+    header
+    {
+        margin-left: -1%;
     }
 }
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
