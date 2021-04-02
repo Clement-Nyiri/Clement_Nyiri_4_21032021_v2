@@ -49,6 +49,15 @@ a:hover {
 }
 
 /* <-- A garder --> */
+#quote
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#quote-source
+{
+    font-size: 0.9em;
+}
 .list
 {
     margin-top: -0.5%;
