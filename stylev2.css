@@ -49,6 +49,11 @@ a:hover {
 }
 
 /* <-- A garder --> */
+
+footer li
+{
+    list-style-type: none;
+}
 #quote
 {
     font-size: 1.2em;
